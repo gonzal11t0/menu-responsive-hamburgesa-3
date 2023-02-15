@@ -1,0 +1,47 @@
+@media screen and (max-width:550px) {
+    .buttom,
+    .buttom-cerrar{
+        display: block;
+        border: 0;
+        font-size:1.9rem;
+        cursor: pointer;
+        background-color: #383636;
+    }
+    .buttom{
+        color:#fffdfd;
+        background-color: #383636;
+    }
+    .buttom-cerrar{
+        color:#fffdfd;
+        background-color: #383636;
+    }
+    .nav{
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 1em;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #383636;
+        padding: 2em;
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0, .5);
+    }
+    .nav-visible{
+        opacity: 1;
+        visibility: visible;
+        width:43%;
+    }
+    .nav-list{
+        flex-direction: column;
+        align-items: end;
+        background-color: #383636;
+    }
+    .nav-list li a{
+        color: #cccd;
+        background-color: #383636;
+    }
+}
